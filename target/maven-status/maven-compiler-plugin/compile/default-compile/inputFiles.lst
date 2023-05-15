@@ -9,6 +9,7 @@ C:\Users\Wonejo\PP\portfolio-BackEnd\pablo\src\main\java\com\portfolio\pablo\Ser
 C:\Users\Wonejo\PP\portfolio-BackEnd\pablo\src\main\java\com\portfolio\pablo\Repository\IPersonaRepository.java
 C:\Users\Wonejo\PP\portfolio-BackEnd\pablo\src\main\java\com\portfolio\pablo\Security\Enums\RolNombre.java
 C:\Users\Wonejo\PP\portfolio-BackEnd\pablo\src\main\java\com\portfolio\pablo\Security\Repository\iUsuarioRepository.java
+C:\Users\Wonejo\PP\portfolio-BackEnd\pablo\src\main\java\com\portfolio\pablo\Security\Service\UserDetailsImpl.java
 C:\Users\Wonejo\PP\portfolio-BackEnd\pablo\src\main\java\com\portfolio\pablo\Security\Entity\UsuarioPrincipal.java
 C:\Users\Wonejo\PP\portfolio-BackEnd\pablo\src\main\java\com\portfolio\pablo\Security\Entity\Rol.java
 C:\Users\Wonejo\PP\portfolio-BackEnd\pablo\src\main\java\com\portfolio\pablo\Security\Service\RolService.java

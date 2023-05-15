@@ -1,6 +1,7 @@
 com\portfolio\pablo\Entity\Persona.class
 com\portfolio\pablo\Service\ImpPersonaService.class
 com\portfolio\pablo\Security\Entity\UsuarioPrincipal.class
+com\portfolio\pablo\Security\Service\UserDetailsImpl.class
 com\portfolio\pablo\Interface\IPersonaService.class
 com\portfolio\pablo\Security\Service\UsuarioService.class
 com\portfolio\pablo\Repository\IPersonaRepository.class
