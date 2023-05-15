@@ -1,4 +1,4 @@
-from amazoncorretto:8-alpine-jdk
-maintainer pablo
-copy target/pablo-0.0.1-SNAPSHOT.jar pablo-app.jar
-entrypoint ["java","-jar","/pablo-app.jar"]
+FROM amazoncorretto:11-alpine-jdk
+MAINTAINER MGB
+COPY target/mgb-0.0.1-SNAPSHOT.jar  mgb-app.jar
+ENTRYPOINT ["java","-jar","/mgb-app.jar"]

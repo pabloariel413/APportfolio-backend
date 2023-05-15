@@ -1,3 +1,8 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package com.portfolio.pablo.Security.Service;
 
 import com.portfolio.pablo.Security.Entity.Usuario;
@@ -18,4 +23,6 @@ public class UserDetailsImpl implements UserDetailsService{
         Usuario usuario = usuarioService.getByNombreUsuario(nombreUsuario).get();
         return UsuarioPrincipal.build(usuario);
     }
+    
+    
 }

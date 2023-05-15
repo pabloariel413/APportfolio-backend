@@ -5,7 +5,6 @@ import java.util.List;
 
 public interface IPersonaService {
     //Traer una lista de personas
-
     public List<Persona> getPersona();
     
     //Guardar un objeto de tipo Persona

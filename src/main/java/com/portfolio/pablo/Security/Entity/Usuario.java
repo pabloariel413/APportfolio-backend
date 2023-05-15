@@ -1,5 +1,11 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package com.portfolio.pablo.Security.Entity;
 
+import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -27,24 +33,23 @@ public class Usuario {
     @NotNull
     private String password;
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "usuario_rol", joinColumns = @JoinColumn(name="usuario_id"), inverseJoinColumns = @JoinColumn(name = "rol_id"))
-    
-    private Set<Rol> roles;
+    @JoinTable(name = "usuario_rol", joinColumns = @JoinColumn(name ="usuario_id"), inverseJoinColumns = @JoinColumn(name = "rol_id"))
+    private Set<Rol> roles = new HashSet<>();
     
     //Constructores
 
     public Usuario() {
     }
 
-    public Usuario(String nombre, String nombreUsuario, String email, String password, Set<Rol> roles) {
+    public Usuario(String nombre, String nombreUsuario, String email, String password) {
         this.nombre = nombre;
         this.nombreUsuario = nombreUsuario;
         this.email = email;
         this.password = password;
-        this.roles = roles;
     }
+    
+    //Getter Y Setter
 
-     //Getter y Setter
     public int getId() {
         return id;
     }
@@ -92,8 +97,5 @@ public class Usuario {
     public void setRoles(Set<Rol> roles) {
         this.roles = roles;
     }
-
+    
 }
-     
-   
-
